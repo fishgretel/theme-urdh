@@ -1,0 +1,8 @@
+imports:
+    urdh: ./
+
+git module urdh:
+    url: https://github.com/justinmayer/tackle
+    pick:
+      - themes/urdh/*.fish
+    export: themes/urdh
